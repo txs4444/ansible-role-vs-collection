@@ -1,0 +1,6 @@
+---
+
+- name: Playbook using role directly
+  hosts: hostname
+  roles:
+    - enable_aur

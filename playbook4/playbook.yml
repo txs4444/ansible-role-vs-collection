@@ -1,0 +1,5 @@
+---
+- name: Playbook using enable_aur role via collection
+  roles:
+    - kewlfft.aur
+    - mynamespace.example.enable_aur

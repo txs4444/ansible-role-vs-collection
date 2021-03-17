@@ -1,0 +1,7 @@
+- name: "Setup user for aur"
+  import_tasks: setup_user.yml
+- name: "Install AUR package manager - yay"
+  aur:
+    name: yay
+  become: yes
+  become_user: "{{ aur_builder.user }}"

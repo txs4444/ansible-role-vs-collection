@@ -1,0 +1,4 @@
+---
+- name: Playbook using enable_aur role via collection
+  roles:
+    - mynamespace.example.enable_aur
